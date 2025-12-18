@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456e407c-e272-4c23-a9b4-ca4ec386d150" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/irasutoya.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getts.py" afterDir="false" />
+    <list default="true" id="456e407c-e272-4c23-a9b4-ca4ec386d150" name="変更" comment="add initial XML configuration files and Python scripts for data migration and web scraping">
+      <change afterPath="$PROJECT_DIR$/find_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_tag_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.find_id.executor": "Run",
+    "Python.find_tag.executor": "Run",
+    "Python.find_tag_all.executor": "Run",
     "Python.getts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,7 +63,20 @@
       <option name="presentableId" value="Default" />
       <updated>1766032275587</updated>
     </task>
+    <task id="LOCAL-00001" summary="add initial XML configuration files and Python scripts for data migration and web scraping">
+      <option name="closed" value="true" />
+      <created>1766033436595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766033436595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add initial XML configuration files and Python scripts for data migration and web scraping" />
+    <option name="LAST_COMMIT_MESSAGE" value="add initial XML configuration files and Python scripts for data migration and web scraping" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
