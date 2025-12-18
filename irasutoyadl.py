@@ -21,6 +21,17 @@ def getImageUrl(load_url):
     return src
 print(getImageUrl(load_url))
 
-# out_folder = Path("download_work")
-# out_folder.mkdir(exist_ok=True)
-# print("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVrKv05ATeRpW_i3mKfD0aQ-t78KFoBWEUhRCdTi-MiwwmJYUiIJ4NbVW4rg-bSj7GMwjDTm9EbTGeSS0XGo0uJCH9-0viaZFIvDDE6zVX5v3WcJR9kV5oOeYINO5QQnblEqknwS8DGBOU/s1600/pyoko_computer.png")
+#画像保存先フォルダの作成
+out_folder = Path("download_work")
+out_folder.mkdir(exist_ok=True)
+#画像の取得処理
+imgdata = requests.get(getImageUrl(load_url))
+filename = getImageUrl(load_url).split("/")[-1]
+out_path = out_folder.joinpath(filename)
+
+#画像DLフォルダを書き込みモードで開く
+f = open(out_path, "wb")
+#画像データの書き込み
+f.write(imgdata.content)
+#ファイルを閉じて保存している
+f.close()
