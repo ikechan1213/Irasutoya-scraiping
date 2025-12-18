@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456e407c-e272-4c23-a9b4-ca4ec386d150" name="変更" comment="、ダウンロードしたロゴ画像">
-      <change afterPath="$PROJECT_DIR$/lesson0.py" afterDir="false" />
+    <list default="true" id="456e407c-e272-4c23-a9b4-ca4ec386d150" name="変更" comment="個人実習-画像DL用フォルダを作成して画像DLまで完了">
+      <change afterPath="$PROJECT_DIR$/download2/onepiece01_luffy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece02_zoro_bandana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece03_nami.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece04_usopp_sogeking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece05_sanji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece06_chopper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece07_robin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece08_franky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece09_brook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece10_jinbe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece11_arlong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece12_buggy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece13_crocodile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece14_enel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece15_lucci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece16_moria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece17_doflamingo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece18_linlin_kaido.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece19_kurohige_teach2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/onepiece20_santaisyou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download2/thumbnail_onepiece.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/irasutoyadl.py" beforeDir="false" afterPath="$PROJECT_DIR$/irasutoyadl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +62,7 @@
     "Python.find_tag.executor": "Run",
     "Python.find_tag_all.executor": "Run",
     "Python.getts.executor": "Run",
+    "Python.irasutoyadl.executor": "Run",
     "Python.lesson0.executor": "Run",
     "Python.logo_dl.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -99,7 +121,31 @@
       <option name="project" value="LOCAL" />
       <updated>1766034624049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="、ワンピースの画像全DL完了">
+      <option name="closed" value="true" />
+      <created>1766036049182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766036049182</updated>
+    </task>
+    <task id="LOCAL-00006" summary="個人実習-関数化完了">
+      <option name="closed" value="true" />
+      <created>1766040946338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766040946338</updated>
+    </task>
+    <task id="LOCAL-00007" summary="個人実習-画像DL用フォルダを作成して画像DLまで完了">
+      <option name="closed" value="true" />
+      <created>1766041576954</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766041576954</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,7 +154,10 @@
     <MESSAGE value="タグ検索,ID検索,LI要素出力" />
     <MESSAGE value="画像ダウンロード用フォルダ作成、ロゴ画像ダウンロード成功" />
     <MESSAGE value="、ダウンロードしたロゴ画像" />
-    <option name="LAST_COMMIT_MESSAGE" value="、ダウンロードしたロゴ画像" />
+    <MESSAGE value="、ワンピースの画像全DL完了" />
+    <MESSAGE value="個人実習-関数化完了" />
+    <MESSAGE value="個人実習-画像DL用フォルダを作成して画像DLまで完了" />
+    <option name="LAST_COMMIT_MESSAGE" value="個人実習-画像DL用フォルダを作成して画像DLまで完了" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
